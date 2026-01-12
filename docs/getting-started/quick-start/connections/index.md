@@ -17,25 +17,25 @@ This flexibility is the point. Your setup, your rules.
 
 <div className="card-grid">
 
-  <a className="card" href="./connections/starting-with-ollama">
+  <a className="card" href="./starting-with-ollama">
     <h3>🦙 Ollama</h3>
     <p><strong>Best for:</strong> Running models locally on your own hardware</p>
     <p>The fastest path to local AI. Download models with a single command, run them on your CPU or GPU. No cloud, no API keys, no ongoing costs.</p>
   </a>
 
-  <a className="card" href="./connections/starting-with-openai">
+  <a className="card" href="./starting-with-openai">
     <h3>🔑 OpenAI</h3>
     <p><strong>Best for:</strong> Direct access to GPT-4, o1, and OpenAI's latest models</p>
     <p>Connect with your API key. Simple setup, powerful models, pay-per-use pricing.</p>
   </a>
 
-  <a className="card" href="./connections/starting-with-openai-compatible">
+  <a className="card" href="./starting-with-openai-compatible">
     <h3>🔌 OpenAI-Compatible APIs</h3>
     <p><strong>Best for:</strong> Other providers, self-hosted servers, or mixing multiple sources</p>
     <p>Works with Gemini, Claude (via proxy), vLLM, Llama.cpp, LiteLLM, Together AI, Mistral, Groq—anything that speaks the OpenAI format.</p>
   </a>
 
-  <a className="card" href="./connections/starting-with-functions">
+  <a className="card" href="./starting-with-functions">
     <h3>⚡ Functions</h3>
     <p><strong>Best for:</strong> Providers without OpenAI-compatible endpoints, or custom integrations</p>
     <p>Direct API access to Claude, Bedrock, Vertex AI, and more. Also the foundation for building custom tools and pipelines.</p>
