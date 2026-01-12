@@ -236,10 +236,10 @@ That's a topic for another guide—but if you're curious, check out [Tailscale's
 
 ## What's Next?
 
-You've got secure, private access to Open WebUI from anywhere. Your traffic never touches the public internet. Your data stays yours [4].
+You've got secure, private access to Open WebUI from anywhere. Your traffic never touches the public internet. Your data stays yours.
 
-**Ready for the next step?** Now that you've got HTTPS access via Tailscale, you can install Open WebUI as a Progressive Web App (PWA) on your devices. This gives you an app-like experience—home screen icon, fullscreen mode, and offline access when you're on your local network [1].
+**Ready for the next step?** Now that you've got HTTPS access via Tailscale, you can install Open WebUI as a Progressive Web App (PWA) on your devices. This gives you an app-like experience—home screen icon, fullscreen mode, and offline access when you're on your local network.
 
-Check out the **HTTPS Tutorials** section to explore other secure access options [3], or head to the PWA setup guide to get that native app feel on your phone and tablet.
+Check out the **HTTPS Tutorials** section to explore other secure access options, or head to the PWA setup guide to get that native app feel on your phone and tablet.
 
 Your network. Your devices. Your AI.

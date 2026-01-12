@@ -136,7 +136,7 @@ For most users, none of this matters. You're here for quick access and voice inp
 
 ## What's Next?
 
-You've got a private AI assistant you can access from anywhere, running as a proper app on all your devices. Your data never leaves your infrastructure. Your conversations stay yours [3].
+You've got a private AI assistant you can access from anywhere, running as a proper app on all your devices. Your data never leaves your infrastructure. Your conversations stay yours.
 
 At this point, you've completed the core "Access From Anywhere" setup:
 
@@ -148,6 +148,6 @@ At this point, you've completed the core "Access From Anywhere" setup:
 
 - **Features**—discover what Open WebUI can actually do (RAG, model evaluation, tools, and more)
 - **Connecting additional models**—add more backends or switch between local and cloud models
-- **Evaluation**—figure out which models work best for *your* use cases [3]
+- **Evaluation**—figure out which models work best for *your* use cases
 
 Your AI. Your devices. Anywhere you go.
