@@ -7,7 +7,7 @@ import { TopBanners } from "@site/src/components/TopBanners";
 
 <TopBanners />
 
-## Getting Started
+# Getting Started
 
 Everything you need to go from zero to running—and beyond.
 
@@ -15,18 +15,17 @@ Everything you need to go from zero to running—and beyond.
 
 ## ⏱️ Quick Start
 
-Get Open WebUI running, then connect it to your models. Most users start here.
+**Start here.** Get Open WebUI installed, connect your models, and set up for daily use.
 
-**What's inside:**
+The Quick Start walks you through three steps:
 
-- Docker installation (with and without bundled Ollama)
-- Python/uv installation
-- Connecting to model providers (Ollama, OpenAI, vLLM, Llama.cpp, and more)
-- Your first custom function
+1. **[Install & Connect Models](/getting-started/quick-start)** — Get running with Docker or Python, then connect Ollama, OpenAI, or any compatible provider
+2. **[Customize Your Setup](/getting-started/quick-start/customization)** — Add web search, voice input, image generation, and model presets
+3. **[Access From Anywhere](/getting-started/quick-start/remote-access)** — Use Open WebUI on any device, securely connect from outside your network
 
-Whether you're running locally or connecting to external APIs, this is your launchpad.
+Most users complete all three in under an hour. By the end, you'll have something that feels like ChatGPT—except it's yours, it's private, and it runs on your terms.
 
-[Go to Quick Start →](/getting-started/quick-start)
+[Start the Quick Start →](/getting-started/quick-start)
 
 ---
 
@@ -41,8 +40,6 @@ Running in production? Securing for your team? Go deeper.
 - Logging and debugging
 - HTTPS and reverse proxy setup
 - Monitoring and observability (OpenTelemetry)
-
-Yeah, it's a few steps. Worth it though.
 
 [Go to Advanced Topics →](/getting-started/advanced-topics)
 
@@ -62,18 +59,7 @@ Already deployed? Stay current with the latest features and security patches.
 
 ---
 
-## 💡 Explore What's Possible
-
-Already up and running? Ready to go deeper?
-
-- **[Upload documents and use RAG →](\features\rag\index.md)** Ground responses in your data
-- **[Enable web search →](\features\web-search\_category_.json)** Let models access current information _(SearXNG Recommended)_
-- **[Generate images →](\features\image-generation-and-editing\_category_.json)** Connect to AUTOMATIC1111, ComfyUI, or DALL-E _(ComfyUI Recommended)_
-- **[Explore all features →](/features)** Voice, tools, pipelines, and more
-
----
-
-Looking for something specific?
+## Reference
 
 | Resource | Description |
 |----------|-------------|
@@ -84,8 +70,6 @@ Looking for something specific?
 
 ## Need Help?
 
-Stuck? We've got you.
-
-- **[Troubleshooting →](/troubleshooting)** How and where to get support
-- **[Discord →](https://discord.gg/5rJgQTnV4s)** Ask the community or our trusty support bot for advice
-- **[GitHub Issues →](https://github.com/open-webui/open-webui/issues)** Report bugs
+- **[Troubleshooting →](/troubleshooting)** — Common issues and solutions
+- **[Discord →](https://discord.gg/5rJgQTnV4s)** — Ask the community
+- **[GitHub Issues →](https://github.com/open-webui/open-webui/issues)** — Report bugs
