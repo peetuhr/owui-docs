@@ -7,7 +7,7 @@ title: "Connections"
 
 Open WebUI is the interface. Now it needs something to talk to.
 
-The good news: you're not locked into one provider. Connect local models through Ollama, cloud models through OpenAI, or mix both. Add more anytime. Switch between them mid-conversation if you want.
+The good news: you're not locked into one provider. Connect local models through Ollama, cloud models through OpenAI, or mix both. Add more anytime. [Switch between them mid-conversation](./features/evaluation/index.mdx) if you want.
 
 This flexibility is the point. Your setup, your rules.
 
