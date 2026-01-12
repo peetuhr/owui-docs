@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+title: "Installing as a PWA (Progressive Web App)"
+---
+
 # Installing Open WebUI as a Progressive Web App (PWA)
 
 ## Why Install as a PWA?

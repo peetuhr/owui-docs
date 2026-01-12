@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+title: "Setting Up Tailscale"
+---
+
 # Setting Up Tailscale with Open WebUI
 
 ## Why Tailscale?
