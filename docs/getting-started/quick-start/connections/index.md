@@ -67,9 +67,9 @@ Open WebUI handles multiple providers simultaneously. Many users run Ollama for 
 
 Once you've got at least one provider working:
 
-→ **[Customize your setup](/customization)** — Add web search, voice, image generation, and model presets
+→ **[Customize your setup](./customization)** — Add web search, voice, image generation, and model presets
 
-→ **[Set up remote access](/remote-access)** — Use Open WebUI from any device, anywhere
+→ **[Set up remote access](./remote-access)** — Use Open WebUI from any device, anywhere
 
 <!-- 
 Screenshot opportunity: The model selector dropdown showing multiple connected providers (e.g., Ollama models + OpenAI models in the same list). This reinforces the "mix and match" message.
