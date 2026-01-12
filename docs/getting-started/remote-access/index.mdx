@@ -1,36 +1,63 @@
 ---
-sidebar_position: 4
-title: "Advanced Topics"
+sidebar_position: 2
+title: "Remote Access"
 ---
 
-# 📚 Advanced Topics
+# Remote Access
 
-Explore deeper concepts and advanced configurations of Open WebUI to enhance your setup.
+You built something powerful. Now use it from anywhere.
 
----
+One of the biggest advantages of self-hosted AI is that it's *yours*—but that shouldn't mean it's trapped on your local network. With the right setup, your Open WebUI instance becomes accessible from any device, anywhere, while staying completely under your control.
 
-## 🛠️ Development
-Understand the development setup and contribute to Open WebUI.
-[Development Guide](/getting-started/advanced-topics/development)
-
----
-
-## 📝 Logging
-Learn how to configure and manage logs for troubleshooting your system.
-[Logging Guide](/getting-started/advanced-topics/logging)
+No cloud provider in the middle. No subscription fees. No data leaving your infrastructure unless you want it to.
 
 ---
 
-## 🔒 HTTPS Encryption
-Ensure secure communication by implementing HTTPS encryption in your deployment.
-[HTTPS Encryption Guide](/getting-started/advanced-topics/https-encryption)
+## What You'll Set Up
+
+<div className="card-grid">
+
+  <a className="card" href="./remote-access/tailscale">
+    <h3>🔗 Setting Up Tailscale</h3>
+    <p>Create a secure private network that connects all your devices—home, office, mobile—without exposing anything to the public internet.</p>
+  </a>
+
+  <a className="card" href="./remote-access/pwa">
+    <h3>📱 Installing as a PWA</h3>
+    <p>Add Open WebUI to your home screen for a native app experience. Full-screen, fast, with proper microphone access for voice features.</p>
+  </a>
+
+</div>
 
 ---
 
-## 📊 Monitoring
-Learn how to monitor your Open WebUI instance, including health checks, model connectivity, and response testing.
-[Monitoring Guide](/getting-started/advanced-topics/monitoring)
+## Why This Matters
+
+Most "AI assistants" require you to send every conversation through someone else's servers. That's the tradeoff for convenience—you get access anywhere, but you give up control everywhere.
+
+Self-hosted flips that equation. Your AI runs on your hardware, your data stays local, and your conversations remain private [4]. The only missing piece is *access*.
+
+Tailscale solves this without the complexity of traditional VPNs or the risk of exposing services to the public internet. It creates an encrypted mesh network between your devices—your laptop, your phone, your server—all appearing on the same private network regardless of where they physically are.
+
+Add the PWA on top, and you've got something that feels indistinguishable from a native app. Launch from your home screen, talk to your AI, get answers—whether you're at home, at work, or somewhere without reliable connectivity.
+
+**The result:** ChatGPT-level convenience with none of the privacy compromises.
 
 ---
 
-Looking for installation instructions? Head over to our [Quick Start Guide](/getting-started/quick-start).
+## Quick Overview
+
+| Component | What It Does | Time to Set Up |
+|-----------|--------------|----------------|
+| **Tailscale** | Secure access to your server from anywhere | ~10 minutes |
+| **PWA** | Native app experience on any device | ~2 minutes per device |
+
+Both are free for personal use. Neither requires opening ports, configuring firewalls, or trusting third parties with your traffic.
+
+---
+
+## Ready?
+
+Start with Tailscale to establish secure connectivity, then install the PWA on each device you want to use.
+
+Once you're done, your self-hosted AI goes wherever you go.

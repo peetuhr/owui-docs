@@ -145,7 +145,6 @@ Subsequent sign-ups start with **Pending** status, requiring Administrator appro
   <TabItem value="conda" label="Conda">
     <div className='mt-5'>
       <Conda />
-      <PythonUpdating />
     </div>
   </TabItem>
 
@@ -198,65 +197,58 @@ For support, visit their website or community channels.
 
 ---
 
-## Installation Complete 🎉
+## You're In 🎉
 
-You're in. Open WebUI is running at:
+Open WebUI is running at:
 
 - **Docker:** [http://localhost:3000](http://localhost:3000)
 - **Python:** [http://localhost:8080](http://localhost:8080)
 
-Now let's make it _yours_...
+Create your admin account and take a look around. When you're ready, follow the path below to complete your setup.
 
 ---
 
-## Connect Your Models
+## What's Next
 
-Open WebUI needs something to talk to. Choose your path:
+You've got the interface. Now let's make it useful.
 
-| Provider | Guide |
-|----------|-------|
-| **Ollama** — The easiest way to run models locally | [Ollama Setup →](/getting-started/quick-start/starting-with-ollama) |
-| **OpenAI** — Connect directly to OpenAI's latest models | [OpenAI Setup →](/getting-started/quick-start/starting-with-openai) |
-| **OpenAI-Compatible APIs** — Gemini, vLLM, Llama.cpp, LiteLLM, and any provider using the OpenAI format (local or remote) | [OpenAI-Compatible Setup →](/getting-started/quick-start/starting-with-openai-compatible) |
-| **Functions** — Direct API access to providers like Claude and Bedrock. Build custom tools, integrations, and pipelines. | [Functions Setup →](/getting-started/quick-start/starting-with-functions) |
+<div className="card-grid">
 
-:::tip Not sure which to choose?
-You only need one to get started—pick whichever fits your setup today. **Ollama** is the fastest path to local models. **OpenAI-Compatible** works with most providers, local or cloud. **Functions** for providers without OpenAI-compatible endpoints, or when you want to build something custom.
+  <a className="card" href="./quick-start/connections">
+    <h3>1. Connect Your Models</h3>
+    <p>Open WebUI needs something to talk to. Connect Ollama for local models, OpenAI for cloud, or any compatible provider.</p>
+  </a>
 
-The best part? Mix and match later. Add more providers anytime.
+  <a className="card" href="./quick-start/customization">
+    <h3>2. Make It Yours</h3>
+    <p>Add web search, voice input, image generation. Create model presets that remember how you like things.</p>
+  </a>
+
+  <a className="card" href="./quick-start/remote-access">
+    <h3>3. Access From Anywhere</h3>
+    <p>Use Open WebUI on your phone, tablet, or any device. Securely connect from outside your home network.</p>
+  </a>
+
+</div>
+
+:::tip Just want to chat?
+If you already have Ollama running locally, Open WebUI will detect it automatically. Skip ahead to [Customization](./quick-start/customization) or just start chatting—you can always come back.
 :::
 
-_See provider specific connectivity guides in the sidebar._
-
 ---
 
-## Complete Your Setup
+## Go Deeper
 
-A few more steps to get the most out of Open WebUI:
+Once you're set up, there's more to explore:
 
-| Task | Why it matters |
-|------|----------------|
-| **Set up remote access** | Access Open WebUI from any device, anywhere—securely. We recommend [Tailscale](https://tailscale.com/). |
-| **[Install the PWA on other devices](\features\index.mdx#key-features-of-open-webui-)** | Native app experience on mobile and desktop. Requires HTTPS. |
-| **[Add users and set permissions](\features\rbac\index.mdx)** | Ready to share? Set up your team. |
-
----
-
-## Explore What's Possible
-
-You're running. You're connected. Ready to go deeper?
-
-- **[Upload documents and use RAG →](\features\rag\index.md)** Ground responses in your data
-- **[Enable web search →](\features\web-search\_category_.json)** Let models access current information _(SearXNG Recommended)_
-- **[Generate images →](\features\image-generation-and-editing\_category_.json)** Connect to AUTOMATIC1111, ComfyUI, or DALL-E _(ComfyUI Recommended)_
-- **[Explore all features →](/features)** Voice, tools, pipelines, and more
+- **[Upload documents and use RAG →](/features/rag)** — Ground responses in your own files and data
+- **[Build tools and functions →](/features/plugin/functions)** — Extend what your models can do
+- **[Explore all features →](/features)** — Voice, pipelines, workspaces, and more
 
 ---
 
 ## Need Help?
 
-Stuck? It happens. We've got you.
-
-- **[Troubleshooting →](/troubleshooting)** How and where to get support
-- **[Discord →](https://discord.gg/5rJgQTnV4s)** Ask the community or our trusty support bot for advice
-- **[GitHub Issues →](https://github.com/open-webui/open-webui/issues)** Report bugs
+- **[Troubleshooting →](/troubleshooting)** — Common issues and solutions
+- **[Discord →](https://discord.gg/5rJgQTnV4s)** — Ask the community
+- **[GitHub Issues →](https://github.com/open-webui/open-webui/issues)** — Report bugs
