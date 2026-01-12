@@ -1,4 +1,3 @@
-```markdown
 ---
 sidebar_position: 2
 title: "Creating Your First Model Preset"
