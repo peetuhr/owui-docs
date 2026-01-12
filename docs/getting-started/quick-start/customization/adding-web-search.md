@@ -32,39 +32,39 @@ Open WebUI supports a wide range of search backends. Which one you choose depend
 
 | Provider | What It Is | Best For |
 |----------|-----------|----------|
-| [**SearXNG**](docs/features/web-search/searxng) ⭐ | Privacy-respecting metasearch engine you run yourself | Our recommended option. No API keys, no external accounts, fully under your control. |
-| [**Yacy**](docs/features/web-search/web-search/yacy) | Peer-to-peer search engine | Decentralized search without relying on any external service |
+| [**SearXNG**](../../../features/web-search/searxng) ⭐ | Privacy-respecting metasearch engine you run yourself | Our recommended option. No API keys, no external accounts, fully under your control. |
+| [**Yacy**](../../../features/web-search/yacy) | Peer-to-peer search engine | Decentralized search without relying on any external service |
 
 ### Free Tier Available
 
 | Provider | What It Is | Best For |
 |----------|-----------|----------|
-| [**DDGS**](docs/features/web-search/ddgs) | DuckDuckGo search | Quick setup, no API key required |
-| [**Jina**](docs/features/web-search/jina) | AI-focused search API | Good free tier, optimized for LLM consumption |
-| [**Brave**](docs/features/web-search/brave) | Brave Search API | Privacy-focused, generous free tier |
-| [**Tavily**](docs/features/web-search/tavily) | Search API built for AI agents | Designed specifically for LLM use cases |
+| [**DDGS**](../../../features/web-search/ddgs) | DuckDuckGo search | Quick setup, no API key required |
+| [**Jina**](../../../features/web-search/jina) | AI-focused search API | Good free tier, optimized for LLM consumption |
+| [**Brave**](../../../features/web-search/brave) | Brave Search API | Privacy-focused, generous free tier |
+| [**Tavily**](../../../features/web-search/tavily) | Search API built for AI agents | Designed specifically for LLM use cases |
 
 ### Paid / API Key Required
 
 | Provider | What It Is | Best For |
 |----------|-----------|----------|
-| [**Google PSE**](docs/features/web-search/google-pse) | Google Programmable Search Engine | Google-quality results, requires setup |
-| [**Bing**](docs/features/web-search/bing) | Microsoft Bing Search API | Strong results, Azure integration |
-| [**Kagi**](docs/features/web-search/kagi) | Premium search engine | High-quality results if you're already a Kagi subscriber |
-| [**Serper**](docs/features/web-search/serper) | Google results via API | Google results without PSE setup |
-| [**Serply**](docs/features/web-search/serply) | Google results via API | Alternative Google results provider |
-| [**Serpstack**](docs/features/web-search/serpstack) | Google results via API | Another Google results option |
-| [**SerpApi**](docs/features/web-search/serpapi) | Google results via API | Established Google scraping service |
-| [**SearchApi**](docs/features/web-search/searchapi) | Multi-engine API | Multiple search engines in one |
-| [**Exa AI**](docs/features/web-search/exa) | Neural search API | Semantic search, good for research queries |
-| [**Mojeek**](docs/features/web-search/mojeek) | Independent search engine | No tracking, UK-based |
-| [**Perplexity**](docs/features/web-search/perplexity) | AI-powered search | Perplexity's answer synthesis |
+| [**Google PSE**](../../../features/web-search/google-pse) | Google Programmable Search Engine | Google-quality results, requires setup |
+| [**Bing**](../../../features/web-search/bing) | Microsoft Bing Search API | Strong results, Azure integration |
+| [**Kagi**](../../../features/web-search/kagi) | Premium search engine | High-quality results if you're already a Kagi subscriber |
+| [**Serper**](../../../features/web-search/serper) | Google results via API | Google results without PSE setup |
+| [**Serply**](../../../features/web-search/serply) | Google results via API | Alternative Google results provider |
+| [**Serpstack**](../../../features/web-search/serpstack) | Google results via API | Another Google results option |
+| [**SerpApi**](../../../features/web-search/serpapi) | Google results via API | Established Google scraping service |
+| [**SearchApi**](../../../features/web-search/searchapi) | Multi-engine API | Multiple search engines in one |
+| [**Exa AI**](../../../features/web-search/exa) | Neural search API | Semantic search, good for research queries |
+| [**Mojeek**](../../../features/web-search/mojeek) | Independent search engine | No tracking, UK-based |
+| [**Perplexity**](../../../features/web-search/perplexity) | AI-powered search | Perplexity's answer synthesis |
 
 ### Other Options
 
 | Provider | What It Is | Best For |
 |----------|-----------|----------|
-| [**External**](docs/features/web-search/external) | Custom endpoint | Rolling your own search integration [1] |
+| [**External**](../../../features/web-search/external) | Custom endpoint | Rolling your own search integration [1] |
 
 ---
 
@@ -81,7 +81,7 @@ Why?
 
 The tradeoff: you're running another service. If you want something simpler, DDGS or Jina are solid starting points with minimal setup.
 
-👉 [**Set up SearXNG**](docs/features/web-search/searxng)
+👉 [**Set up SearXNG**](../../../features/web-search/searxng)
 
 ---
 
