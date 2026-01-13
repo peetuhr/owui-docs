@@ -5,9 +5,7 @@ title: "Creating Your First Model Preset"
 
 # Creating Your First Model Preset
 
-Open WebUI's model system lets you create custom "presets"—configurations that wrap any base model with your own system prompts, knowledge, tools, and settings [1]. Think of it as creating specialized assistants for different tasks, all powered by the models you already have.
-
-This is where Open WebUI stops being "a chat interface" and starts being *yours*.
+Open WebUI's model system lets you create custom "presets"—configurations that wrap any base model with your own system prompts, knowledge, tools, and settings. Think of it as creating specialized assistants for different tasks, all powered by the models you already have.
 
 ---
 
@@ -15,7 +13,7 @@ This is where Open WebUI stops being "a chat interface" and starts being *yours*
 
 A model preset is a saved configuration that includes:
 
-- **A base model** — The actual AI doing the work (GPT-4, Llama 3, Claude, etc.) [1]
+- **A base model** — The actual AI doing the work (GPT-4, Llama 3, Claude, etc.)
 - **A system prompt** — Instructions that shape how the model responds
 - **Optional additions** — Knowledge bases, tools, specific parameters
 
@@ -56,10 +54,10 @@ Let's walk through creating a preset optimized for voice conversations—one tha
 
 | Field | What to Enter |
 |-------|---------------|
-| **Name** | `Voice Assistant` [1] |
+| **Name** | `Voice Assistant` |
 | **Model ID** | `voice-assistant` (auto-generated, customize if you want) |
-| **Base Model** | Choose your preferred model—`llama3`, `gpt-4o`, `claude-3-sonnet`, whatever you have connected [1] |
-| **Description** | `Conversational assistant optimized for voice interaction` [1] |
+| **Base Model** | Choose your preferred model—`llama3`, `gpt-4o`, `claude-3-sonnet`, whatever you have connected |
+| **Description** | `Conversational assistant optimized for voice interaction` |
 
 ### Step 3: Add the System Prompt
 
@@ -170,13 +168,13 @@ Fine-tune temperature, context length, and other model settings per-preset. A cr
 
 ### Tags
 
-Organize presets with tags [1]. When you have a dozen presets, `#work`, `#personal`, `#voice`, `#coding` make them findable.
+Organize presets with tags. When you have a dozen presets, `#work`, `#personal`, `#voice`, `#coding` make them findable.
 
 ---
 
 ## Sharing Your Presets
 
-Built something useful? You can share presets with specific users, groups, or the broader Open WebUI community [2].
+Built something useful? You can share presets with specific users, groups, or the broader Open WebUI community.
 
 From the Models list:
 1. Click the **⋮** menu on any preset

@@ -37,7 +37,7 @@ Open WebUI includes STT support out of the box with multiple backends:
 | **Browser Web API** | Uses your browser's built-in speech recognition | Quick setup, no configuration needed |
 | **Local Whisper** | OpenAI's Whisper model running locally | Privacy-focused, works offline |
 | **OpenAI Whisper API** | Cloud-based Whisper via OpenAI | High accuracy, requires API key |
-| **Deepgram** | Third-party speech recognition service | High accuracy, real-time streaming [3] |
+| **Deepgram** | Third-party speech recognition service | High accuracy, real-time streaming |
 
 ### Configuration
 
@@ -50,7 +50,7 @@ Navigate to **Admin Settings → Audio** to configure your STT provider:
 For most users, the browser Web API works immediately with no setup. If you need higher accuracy or offline capability, local Whisper is the next step.
 
 :::tip HTTPS Required
-Browser microphone access requires HTTPS. If you're accessing Open WebUI over plain HTTP, speech input won't work. See the [Tailscale guide](./remote-access) for the easiest way to get HTTPS set up, or check out our [HTTPS tutorials](../../../tutorials/https/) for other options [2].
+Browser microphone access requires HTTPS. If you're accessing Open WebUI over plain HTTP, speech input won't work. See the [Tailscale guide](./remote-access/tailscale-setup) for the easiest way to get HTTPS set up, or check out our [HTTPS tutorials](/advanced-topics/https-encryption) for other options.
 :::
 
 ---
@@ -65,7 +65,7 @@ TTS gives your AI a voice. Responses play as audio instead of (or in addition to
 |--------|-----------|----------|
 | **Browser Web API** | Your browser's built-in speech synthesis | Instant setup, works everywhere |
 | **OpenAI TTS** | OpenAI's voice API (alloy, echo, nova, etc.) | Natural-sounding voices, requires API key |
-| **ElevenLabs** | Premium voice synthesis service | Most natural voices, supports EU endpoints [3] |
+| **ElevenLabs** | Premium voice synthesis service | Most natural voices, supports EU endpoints |
 
 ### Configuration
 

@@ -64,7 +64,7 @@ Open WebUI supports a wide range of search backends. Which one you choose depend
 
 | Provider | What It Is | Best For |
 |----------|-----------|----------|
-| [**External**](../../../features/web-search/external) | Custom endpoint | Rolling your own search integration [1] |
+| [**External**](../../../features/web-search/external) | Custom endpoint | Rolling your own search integration |
 
 ---
 
