@@ -35,7 +35,7 @@ This flexibility is the point. Your setup, your rules.
     <p>Works with Gemini, Claude (via proxy), vLLM, Llama.cpp, LiteLLM, Together AI, Mistral, Groq—anything that speaks the OpenAI format.</p>
   </a>
 
-  <a className="card" href=".connections/starting-with-functions">
+  <a className="card" href="./connections/starting-with-functions">
     <h3>⚡ Functions</h3>
     <p><strong>Best for:</strong> Providers without OpenAI-compatible endpoints, or custom integrations</p>
     <p>Direct API access to Claude, Bedrock, Vertex AI, and more. Also the foundation for building custom tools and pipelines.</p>
