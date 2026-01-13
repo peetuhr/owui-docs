@@ -50,7 +50,7 @@ Navigate to **Admin Settings → Audio** to configure your STT provider:
 For most users, the browser Web API works immediately with no setup. If you need higher accuracy or offline capability, local Whisper is the next step.
 
 :::tip HTTPS Required
-Browser microphone access requires HTTPS. If you're accessing Open WebUI over plain HTTP, speech input won't work. See the [Tailscale guide](./remote-access/tailscale-setup) for the easiest way to get HTTPS set up, or check out our [HTTPS tutorials](/advanced-topics/https-encryption) for other options.
+Browser microphone access requires HTTPS. If you're accessing Open WebUI over plain HTTP, speech input won't work. See the [Tailscale guide](../remote-access/tailscale-setup) for the easiest way to get HTTPS set up, or check out our [HTTPS tutorials](../advanced-topics/https-encryption) for other options.
 :::
 
 ---
